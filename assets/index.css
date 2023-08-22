@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Questrial', sans-serif;
+    color: white;
+}
+
+.main {
+
+}
+
+.main_calc {
+    background-color: rgb(38, 38, 39);
+    height: 530px;
+    width: 325px;
+    border-radius: 10px;
+
+}
+
+.calc_header {
+
+    display: flex;
+    justify-content: space-between;
+    height:25px;
+
+}
+.header_left {
+    width: 115px;
+    padding: 3px;
+    margin-left: 20px;
+    font-size: 13px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header_right {
+   display: flex;
+}
+.right_minimize, .right_maximize {
+    width: 43px;
+    border: 1px solid rgb(38, 38, 39);
+    border-top: 0px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right_close{
+    border-radius: 0px 5px 0px 0px;
+    border-top: none;
+    border-right: none;
+    width: 43px;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc_options {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.options_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.calc_expressions{
+    border-radius: 2px;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.expression_area{ display: flex; justify-content: end;}
+
+.calc_functions {
+    display: flex; 
+    justify-content: space-between;
+    font-size:15px;
+    margin: 18px;}
+
+.calc_keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    font-size: 15px;
+    margin: 0px 4px 0px 3px;
+
+}
+
+.key{
+    height: 45px;
+    border-radius: 5px;
+    margin: 5px 2px 0px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(59, 59, 59);
+}
+
+.keyequal {
+    background-color: rgb(61, 61, 190);
+}
+
+.keyad, .keysub, .division, .keymult, .keyv, .keypercent, .keyc, .keyce, .keynegative, .keysqr, .keyfr, .backspace{
+   color: rgb(214, 117, 6);
+   background-color: rgb(48, 48, 48);
+}
+
+.keymc, .keymr, .keyms, .keym {
+    color: rgb(78, 78, 78);
+
+
+
+
