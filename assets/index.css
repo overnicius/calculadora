@@ -89,13 +89,17 @@ body {
     font-size: 40px;
 }
 
-.expression_area{ display: flex; justify-content: end; height: 50px; overflow: auto;}
+.expression_area{ display: flex; justify-content: end; height: 60px; overflow: auto; flex-direction: column; align-items: end;}
+
+#displayOperations{
+    font-size: 15px;
+}
 
 .calc_functions {
     display: flex; 
     justify-content: space-between;
     font-size:15px;
-    margin: 10px 10px 18px 10px;}
+    margin: 10px;}
 
 .calc_keys {
     display: grid;
@@ -104,7 +108,7 @@ body {
     grid-column-gap: 2px;
     grid-row-gap: 2px;
     font-size: 15px;
-    margin: 0px 4px 0px 3px;
+    margin: 0px 4px 0px 2px;
 
 }
 
